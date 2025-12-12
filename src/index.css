@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at 20% 20%, rgba(100, 116, 203, 0.18), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(160, 114, 54, 0.18), transparent 28%),
+    #0f172a;
+  color: #0b1021;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
+}
+
+.card {
+  @apply glass shadow-soft rounded-2xl border border-white/10;
+}
+
+.pill {
+  @apply px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wide;
+}
