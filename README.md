@@ -33,5 +33,10 @@ npm run preview
 - Settings stay in your browser; clear them by emptying the fields and saving.  
 - Network requests go directly to OpenAI; no server is bundled here.
 
+## UI Preview
+![Vector Knowledge Base UI](docs/ui-preview.png)
+
+If the image above doesn’t render, drop your latest screenshot at `docs/ui-preview.png` (as shown in the provided mock: two-column upload/help layout, file list below, and chat drawer on the right).
+
 ## Support
 This project is quietly supported by Oappsnet.com, helping keep the lights on without the billboards.
